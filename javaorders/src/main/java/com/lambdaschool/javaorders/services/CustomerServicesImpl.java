@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Transactional
-@Service
+@Service(value = "customerServices")
 public class CustomerServicesImpl implements CustomerServices {
     @Autowired
     CustomersRepository custrepos;
